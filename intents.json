@@ -9,7 +9,17 @@
      "patterns": ["Bye", "See you later", "Goodbye", "Nice chatting to you, bye", 
                   "Till next time"],
      "responses": ["See you!", "Have a nice day", "Bye! Come back again soon.","Good day"]             
-    }
+    },
+    {"tag": "thanks",
+     "patterns": ["Thanks", "Thank you", "That's helpful"],
+     "responses": ["Welcome", "My pleasure", "Happy to help","Anytime"]             
+    },
+    {"tag": "noanswer",
+    "patterns": [""],
+    "responses": ["Sorry, can't understand you.", "Please give me more info.", 
+                  "Not sure I understand."]
+   }
+
   ]
 }
 
